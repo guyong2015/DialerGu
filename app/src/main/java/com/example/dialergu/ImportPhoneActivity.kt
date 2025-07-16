@@ -69,7 +69,7 @@ class ImportPhoneActivity : AppCompatActivity() {
 
     // DashScope API 配置
 
-    //private val apiKey = "sk-e22a88c692f6426cb38c5f8dfb5a60a4" // 请替换为您的实际 API Key
+    //private val apiKey = "sk-e22a88c692f6426cb38c5f8dfb5a60a4gu" // 请替换为您的实际 API Key
     private val apiUrl = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
     private val apiKey = BuildConfig.DASH_SCOPE_API_KEY
 
