@@ -6,8 +6,11 @@
 
 <p align="center">
   AI generate list&dial for android Mobile camera.
-  安卓手机拍照生成拨号清单并拨打.
 </p>
+<p align="center">
+  AI generate list&dial for android Mobile camera.
+</p>
+
 
 <p align="center">
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
