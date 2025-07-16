@@ -2,10 +2,11 @@
   <img src="dg.png" alt="应用Logo" width="128"/>
 </p>
 
-<h1 align="center">您的应用名称</h1>
+<h1 align="center">DialerGu</h1>
 
 <p align="center">
-  一句话描述您的应用，精准、诱人！
+  AI generate list&dial for android Mobile camera.
+  安卓手机拍照生成拨号清单并拨打.
 </p>
 
 <p align="center">
