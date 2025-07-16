@@ -8,7 +8,7 @@
   AI generate list & dial for android Mobile camera.
 </p>
 <p align="center">
-  智能生成拨号清单然 & 拨打
+  智能生成拨号清单 & 拨打
 </p>
 
 
