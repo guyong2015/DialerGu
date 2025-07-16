@@ -18,8 +18,9 @@
     <a href="https://github.com/guyong2015/DialerGu/releases"><img src="https://img.shields.io/github/v/release/guyong2015/DialerGu" alt="Release Version"></a>
     <a href="https://github.com/guyong2015/DialerGu/releases"><img src="https://img.shields.io/github/downloads/guyong2015/DialerGu/total" alt="GitHub Downloads"></a>
 </p>
-## 🚀 快速开始
 
+## 🚀 快速开始
+## 🙏 致谢
 ### 安装
 
 您可以通过以下方式安装本应用：
