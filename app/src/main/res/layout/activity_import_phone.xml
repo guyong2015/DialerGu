@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"> <!-- 确保 ScrollView 的子视图填充整个视口 -->
+
+    <!-- 将原有的 ConstraintLayout 放在 LinearLayout 中，以便 ScrollView 更好地管理 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"> <!-- 增加整体内边距，使内容更美观 -->
+
+        <!-- 新增的“确认导入”按钮 -->
+        <Button
+            android:id="@+id/buttonConfirmImport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认导入"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#03A9F4"
+            android:textColor="@android:color/white"
+            app:cornerRadius="8dp" />
+
+        <TextView
+            android:id="@+id/importTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="导入电话"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="32dp" /> <!-- 调整间距 -->
+
+        <!-- 导入操作按钮区域 -->
+        <!-- 将按钮放在一个 LinearLayout 中，以便更好地管理垂直间距 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/buttonImportClipboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="从剪贴板导入"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#2196F3"
+                android:textColor="@android:color/white"
+                app:cornerRadius="8dp" />
+
+            <Button
+                android:id="@+id/buttonImportFile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="从文件导入"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#FF9800"
+                android:textColor="@android:color/white"
+                app:cornerRadius="8dp" />
+
+            <Button
+                android:id="@+id/buttonImportOcr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="拍照识别"
+                android:layout_marginBottom="8dp"
+                android:backgroundTint="#4CAF50"
+                android:textColor="@android:color/white"
+                app:cornerRadius="8dp" />
+
+            <Button
+                android:id="@+id/buttonImportPhotoOcr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="照片识别"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#9C27B0"
+                android:textColor="@android:color/white"
+                app:cornerRadius="8dp" />
+
+        </LinearLayout>
+
+        <!-- 导入状态显示 -->
+        <TextView
+            android:id="@+id/importStatusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="导入状态：等待操作..."
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background_light_grey"
+            android:gravity="center" />
+
+        <!-- 用于显示照片的 ImageView -->
+        <ImageView
+            android:id="@+id/imageViewCapturedPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="centerInside"
+            android:background="@android:color/darker_gray"
+            android:contentDescription="捕获或选择的照片"
+            tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+        <!-- 用于显示识别文本的 TextView -->
+        <TextView
+            android:id="@+id/textViewRecognizedText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="识别文本将显示在此处。"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:background="@drawable/rounded_background_light_blue"
+            android:layout_marginBottom="16dp"
+            android:minHeight="100dp"
+            android:scrollbars="vertical"
+            android:textIsSelectable="true"/> <!-- 确保文本视图本身也可滚动 -->
+
+    </LinearLayout>
+</ScrollView>
+
+    <!-- 辅助 drawable/rounded_background_light_grey.xml -->
+    <!-- 请在 res/drawable 目录下创建此文件 -->
+    <!--
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <solid android:color="#F0F0F0" />
+        <corners android:radius="8dp" />
+        <stroke android:width="1dp" android:color="#CCCCCC" />
+    </shape>
+    -->
+
+    <!-- 辅助 drawable/rounded_background_light_blue.xml -->
+    <!-- 请在 res/drawable 目录下创建此文件 -->
+    <!--
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+        <solid android:color="#E3F2FD" />
+        <corners android:radius="8dp" />
+        <stroke android:width="1dp" android:color="#90CAF9" />
+    </shape>
+    -->
