@@ -5,10 +5,10 @@
 <h1 align="center">DialerGu</h1>
 
 <p align="center">
-  AI generate list&dial for android Mobile camera.
+  AI generate list & dial for android Mobile camera.
 </p>
 <p align="center">
-  AI generate list&dial for android Mobile camera.
+  智能生成拨号清单然 & 拨打
 </p>
 
 
