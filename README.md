@@ -44,3 +44,23 @@
     ```
 4.  **构建并运行**
     点击 "Run 'app'"。
+    ## 🤝 如何贡献
+
+    非常欢迎您的加入！我们欢迎任何形式的贡献，无论是报告一个bug、提交一个功能请求，还是直接贡献代码。
+    
+    *   **报告问题**: 请通过 **[GitHub Issues](https://github.com/your-username/your-repo/issues)** 提交。
+    *   **贡献代码**: 请 Fork 本仓库，创建您的特性分支，完成修改后提交 Pull Request。
+    
+    我们鼓励您在开始工作前，先阅读我们的 **[贡献指南 (CONTRIBUTING.md)](CONTRIBUTING.md)**。
+    ## 🙏 致谢
+
+这个项目的完成离不开以下优秀的开源库和工具：
+
+*   **[Retrofit](https://square.github.io/retrofit/)**: 用于网络请求。
+*   **[Glide](https://github.com/bumptech/glide)**: 用于图片加载。
+*   **[Lottie](https://airbnb.design/lottie/)**: 用于实现炫酷的动画。
+*   感谢 **@某个贡献者** 提出的宝贵建议。
+*   设计灵感来源于 **[某个项目或网站](http://example.com)**。
+## 📄 许可证
+
+本项目采用 MIT 许可证。详情请见 [LICENSE](LICENSE) 文件。
