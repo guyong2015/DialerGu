@@ -21,7 +21,7 @@
 
 ## 📺 演示和说明
 *  **[点击这里访问演示视频或详细说明](https://guyong2015.github.io/DialerGu/)**
-*  **[动画演示](https://github.com/guyong2015/DialerGu/demo.gif)**
+*  **[动画演示](https://gitee.com/ufogy/DialerGu/blob/main/demo.gif)**
 
 ## 🚀 快速开始
 ### 安装
