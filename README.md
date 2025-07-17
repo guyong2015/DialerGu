@@ -31,7 +31,7 @@
 *   前往 **[GitHub Releases](https://github.com/guyong2015/DialerGu/releases)** 页面下载最新的 `.apk` 文件。
 *   国内下载 **[Gitee Releases](https://gitee.com/ufogy/DialerGu/blob/main/app/release/app-release.apk)** 页面下载最新的 `.apk` 文件。
 *   (如果已上架) 前往 **[Google Play](https://play.google.com/store/apps/details?id=your.package.name)** 下载。
-*   下载了APK不会安装的 **[请自行搜索](https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E5%9C%A8XXX%E6%89%8B%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85%E6%9C%AA%E7%9F%A5%E6%9D%A5%E6%BA%90APK)**
+*   完成下载后不会安装APK的 **[请自行搜索](https://www.baidu.com/s?wd=%E5%A6%82%E4%BD%95%E5%9C%A8XXX%E6%89%8B%E6%9C%BA%E4%B8%8A%E5%AE%89%E8%A3%85%E6%9C%AA%E7%9F%A5%E6%9D%A5%E6%BA%90APK)**
 ### 从源码构建
 
 如果您想自行编译，请遵循以下步骤：
