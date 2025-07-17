@@ -33,7 +33,7 @@
 ### 从源码构建
 
 如果您想自行编译，请遵循以下步骤：
-当前使用阿里千问OCR模型,测试通过的还的Gemini.不同模型需要修改代码适应返回数据。
+*（当前使用阿里千问OCR模型,测试通过的还的Gemini.不同模型需要修改代码适应返回数据。）
 1.  **克隆仓库**
     ```bash
     git clone https://github.com/guyong2015/DialerGu.git
