@@ -19,12 +19,15 @@
     <a href="https://github.com/guyong2015/DialerGu/releases"><img src="https://img.shields.io/github/downloads/guyong2015/DialerGu/total" alt="GitHub Downloads"></a>
 </p>
 
+## 📺 演示和说明
+*  **[点击这里访问演示视频或详细说明](https://github.com/guyong2015/DialerGu/releases)**
+
 ## 🚀 快速开始
 ### 安装
 
 您可以通过以下方式安装本应用：
 
-*   前往 **[GitHub Releases](https://github.com/your-username/your-repo/releases)** 页面下载最新的 `.apk` 文件。
+*   前往 **[GitHub Releases](https://github.com/guyong2015/DialerGu/releases)** 页面下载最新的 `.apk` 文件。
 *   (如果已上架) 前往 **[Google Play](https://play.google.com/store/apps/details?id=your.package.name)** 下载。
 
 ### 从源码构建
@@ -33,7 +36,7 @@
 
 1.  **克隆仓库**
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/guyong2015/DialerGu.git
     ```
 2.  **打开项目**
     使用 Android Studio 打开项目。
@@ -48,7 +51,7 @@
 
     非常欢迎您的加入！我们欢迎任何形式的贡献，无论是报告一个bug、提交一个功能请求，还是直接贡献代码。
     
-    *   **报告问题**: 请通过 **[GitHub Issues](https://github.com/your-username/your-repo/issues)** 提交。
+    *   **报告问题**: 请通过 **[GitHub Issues](https://github.com/guyong2015/DialerGu/issues)** 提交。
     *   **贡献代码**: 请 Fork 本仓库，创建您的特性分支，完成修改后提交 Pull Request。
     
     我们鼓励您在开始工作前，先阅读我们的 **[贡献指南 (CONTRIBUTING.md)](CONTRIBUTING.md)**。
