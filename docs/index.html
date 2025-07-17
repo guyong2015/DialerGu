@@ -1,174 +1,82 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DialerGu - 软件使用介绍</title>
-    <!-- 引入 Tailwind CSS CDN，用于快速样式化 -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        /* 自定义字体，确保中文字体显示良好 */
-        body {
-            font-family: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-            background-color: #f0f2f5; /* 浅灰色背景 */
-        }
-        /* 确保所有元素都有圆角 */
-        .rounded-lg {
-            border-radius: 0.5rem; /* 8px 圆角 */
-        }
-    </style>
-</head>
-<body class="flex flex-col items-center justify-center min-h-screen p-4">
-    <!-- Logo 图片部分 -->
-    <div class="mb-8"><!DOCTYPE html>
-        <html lang="zh-CN">
-        <head>
+    <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>DialerGu - 软件使用介绍</title>
-            <!-- 引入 Tailwind CSS CDN，用于快速样式化 -->
             <script src="https://cdn.tailwindcss.com"></script>
-            <style>
-                /* 自定义字体，确保中文字体显示良好 */
-                body {
-                    font-family: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-                    background-color: #f0f2f5; /* 浅灰色背景 */
-                }
-                /* 确保所有元素都有圆角 */
-                .rounded-lg {
-                    border-radius: 0.5rem; /* 8px 圆角 */
-                }
-            </style>
-        </head>
-        <body class="flex flex-col items-center justify-center min-h-screen p-4">
-            <!-- Logo 图片部分 -->
-            <div class="mb-8 w-full max-w-4xl"> <!-- Added w-full and max-w-4xl to parent div for consistent alignment with content -->
-                <img src="dg.png" alt="应用Logo" class="block w-32 rounded-lg shadow-md"/> <!-- Removed mx-auto to left-align -->
-            </div>
-        
-            <div class="max-w-4xl w-full bg-white shadow-lg rounded-lg p-8 space-y-8">
-        
-                <!-- 简介部分 -->
-                <section class="text-center">
-                    <h2 class="text-4xl font-bold text-gray-800 mb-4 rounded-lg p-2">🌟 简介</h2>
-                    <p class="text-lg text-gray-700 mb-4">
-                        DialerGu 是一款创新的 Android 移动应用，它利用先进的 AI 技术，智能生成拨号清单，然后根据清单进行拨号。
-                        它旨在解决传统手动拨号的繁琐和低效问题，特别适用于需要快速、批量处理电话号码的场景。
-                    </p>
-                    <div class="mt-8">
-                        <!-- 应用演示GIF，请将 'screenshots/demo.gif' 替换为实际可访问的图片URL -->
-                        <img src="dg_demo.gif" alt="应用演示GIF" class="mx-auto rounded-lg shadow-md w-full max-w-sm"/>
-                    </div>
-                </section>
-        
-                <!-- 功能特性部分 -->
-                <section>
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center rounded-lg p-2">✨ 功能特性</h2>
-                    <ul class="list-disc list-inside space-y-3 text-lg text-gray-700">
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-blue-600">AI 智能识别：</strong> 自动从图片或手机照像头中识别电话号码，省去手动输入的麻烦。
-                        </li>
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-blue-600">批量生成清单：</strong> 将识别到的多个号码智能整理成可编辑的拨号清单，方便统一管理和操作。
-                        </li>
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-blue-600">一键快速拨号：</strong> 清单中的号码可直接点击拨打，无需切换应用，极大地提高了拨号效率。
-                        </li>
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-blue-600">自定义清单管理：（待实现）</strong> 用户可以对生成的清单进行编辑、添加或删除号码，满足个性化需求。
-                        </li>
-                    </ul>
-                </section>
-        
-                <!-- 使用方法部分 -->
-                <section>
-                    <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center rounded-lg p-2">✨ 使用方法</h2>
-                    <ul class="list-decimal list-inside space-y-3 text-lg text-gray-700">
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-green-600">导入方式：</strong> 打开应用，选择“拍照识别”或“从相册选择”功能，让 AI 自动识别图片中的电话号码。
-                        </li>
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-green-600">等待识别完成：</strong> 识别完成后，系统会生成一个初步的拨号清单。(您可以选择导入全部号码，或手动勾选需要导入的号码：待实现)。
-                        </li>
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-green-600">确定导入：</strong> 确认清单内容无误后，点击最上方的“确定导入”，号码将被添加到您的拨号清单中，随时准备拨打。
-                        </li>
-                        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                            <strong class="text-green-600">开始拨打：</strong> 在拨号清单页面，点击任一号码即可直接拨打。
-                        </li>
-                    </ul>
-                </section>
-        
-                <footer class="text-center text-gray-500 text-sm mt-10 p-4 border-t border-gray-200">
-                    &copy; 2024 DialerGu. All rights reserved.
-                </footer>
-            </div>
-        </body>
-        </html>
-        
-        <img src="dg.png" alt="应用Logo" class="mx-auto block w-32 rounded-lg shadow-md"/>
-    </div>
+        <style>
+            /* 自定义字体，确保中文字体显示良好 */
+            body {
+            font-family: "Inter", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            background-color: #f0f2f5; /* 浅灰色背景 */
+            }
+            /* 确保所有元素都有圆角 */
+            .rounded-lg {
+            border-radius: 0.5rem; /* 8px 圆角 */
+            }
+         </style>
+    </head>
+    <body class="flex flex-col items-center justify-center min-h-screen p-4">
+        <div class="mb-8 w-full max-w-4xl"> <img src="dg.png" alt="应用Logo" class="block w-32 rounded-lg shadow-md mx-auto"/> </div>
 
-    <div class="max-w-4xl w-full bg-white shadow-lg rounded-lg p-8 space-y-8">
 
-        <!-- 简介部分 -->
+        <div class="max-w-4xl w-full bg-white shadow-lg rounded-lg p-8 space-y-8">
+
+
         <section class="text-center">
-            <h2 class="text-4xl font-bold text-gray-800 mb-4 rounded-lg p-2">🌟 简介</h2>
-            <p class="text-lg text-gray-700 mb-4">
-                DialerGu 是一款创新的 Android 移动应用，它利用先进的 AI 技术，智能生成拨号清单，并简化了安卓手机摄像头的拨号流程。
-                它旨在解决传统手动拨号的繁琐和低效问题，特别适用于需要快速、批量处理电话号码的场景。
-            </p>
-            <p class="text-lg text-gray-700">
-                无论是业务外勤、现场数据收集还是其他需要高效联系的场景，DialerGu 都能为您提供无缝、智能的拨号体验，大幅提升工作效率。
-            </p>
-            <div class="mt-8">
-                <!-- 应用演示GIF，请将 'screenshots/demo.gif' 替换为实际可访问的图片URL -->
-                <img src="dg_demo.gif" alt="应用演示GIF" class="mx-auto rounded-lg shadow-md w-full max-w-sm"/>
-                <p class="text-sm text-gray-500 mt-2">（请将图片路径替换为实际的GIF演示图）</p>
-            </div>
+        <h2 class="text-4xl font-bold text-gray-800 mb-4 rounded-lg p-2">🌟 简介</h2>
+        <p class="text-lg text-gray-700 mb-4">
+        DialerGu 是一款创新的 Android 移动应用，它利用先进的 AI 技术，智能生成拨号清单，然后根据清单进行拨号。
+        它旨在解决传统手动拨号的繁琐和低效问题，特别适用于需要快速、批量处理电话号码的场景。
+        </p>
+        <div class="mt-8">
+        <img src="dg_demo.gif" alt="应用演示GIF" class="mx-auto rounded-lg shadow-md w-full max-w-sm"/>
+        </div>
         </section>
 
-        <!-- 功能特性部分 -->
+
         <section>
-            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center rounded-lg p-2">✨ 功能特性</h2>
-            <ul class="list-disc list-inside space-y-3 text-lg text-gray-700">
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-blue-600">AI 智能识别：</strong> 自动从图片或摄像头实时画面中识别电话号码，省去手动输入的麻烦。
-                </li>
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-blue-600">批量生成清单：</strong> 将识别到的多个号码智能整理成可编辑的拨号清单，方便统一管理和操作。
-                </li>
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-blue-600">一键快速拨号：</strong> 清单中的号码可直接点击拨打，无需切换应用，极大地提高了拨号效率。
-                </li>
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-blue-600">自定义清单管理：</strong> 用户可以对生成的清单进行编辑、添加或删除号码，满足个性化需求。
-                </li>
-            </ul>
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center rounded-lg p-2">✨ 功能特性</h2>
+        <ul class="list-disc list-inside space-y-3 text-lg text-gray-700">
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-blue-600">AI 智能识别：</strong> 自动从图片或手机照像头中识别电话号码，省去手动输入的麻烦。
+        </li>
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-blue-600">批量生成清单：</strong> 将识别到的多个号码智能整理成可编辑的拨号清单，方便统一管理和操作。
+        </li>
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-blue-600">一键快速拨号：</strong> 清单中的号码可直接点击拨打，无需切换应用，极大地提高了拨号效率。
+        </li>
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-blue-600">自定义清单管理：（待实现）</strong> 用户可以对生成的清单进行编辑、添加或删除号码，满足个性化需求。
+        </li>
+        </ul>
         </section>
 
-        <!-- 使用方法部分 -->
+
         <section>
-            <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center rounded-lg p-2">✨ 使用方法</h2>
-            <ul class="list-decimal list-inside space-y-3 text-lg text-gray-700">
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-green-600">导入电话：</strong> 打开应用，选择“拍照识别”或“从相册选择”功能，让 AI 自动识别图片中的电话号码。
-                </li>
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-green-600">导入方式：：</strong> 识别完成后，系统会生成一个初步的拨号清单。您可以选择导入全部号码，或手动勾选需要导入的号码。
-                </li>
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-green-600">确定导入：</strong> 确认清单内容无误后，点击“确定导入”，号码将被添加到您的拨号清单中，随时准备拨打。
-                </li>
-                <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
-                    <strong class="text-green-600">开始拨打：</strong> 在拨号清单页面，点击任一号码即可直接拨打。
-                </li>
-            </ul>
+        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center rounded-lg p-2">✨ 使用方法</h2>
+        <ul class="list-decimal list-inside space-y-3 text-lg text-gray-700">
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-green-600">导入方式：</strong> 打开应用，选择“拍照识别”或“从相册选择”功能，让 AI 自动识别图片中的电话号码。
+        </li>
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-green-600">等待识别完成：</strong> 识别完成后，系统会生成一个初步的拨号清单。(您可以选择导入全部号码，或手动勾选需要导入的号码：待实现)。
+        </li>
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-green-600">确定导入：</strong> 确认清单内容无误后，点击最上方的“确定导入”，号码将被添加到您的拨号清单中，随时准备拨打。
+        </li>
+        <li class="bg-gray-50 p-3 rounded-lg shadow-sm">
+        <strong class="text-green-600">开始拨打：</strong> 在拨号清单页面，点击任一号码即可直接拨打。
+        </li>
+        </ul>
         </section>
+
 
         <footer class="text-center text-gray-500 text-sm mt-10 p-4 border-t border-gray-200">
-            &copy; 2025 DialerGu. All rights reserved.
+        &copy; 2025 DialerGu. All rights reserved.
         </footer>
-    </div>
-</body>
+        </div>
+    </body>
 </html>
