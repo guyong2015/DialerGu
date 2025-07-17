@@ -62,7 +62,10 @@
 *   **[Retrofit](https://square.github.io/retrofit/)**: 用于网络请求。
 *   **[Glide](https://github.com/bumptech/glide)**: 用于图片加载。
 *   **[Lottie](https://airbnb.design/lottie/)**: 用于实现炫酷的动画。
-*   感谢 **小龚@GYC** 的精美LOGO。
+* 感谢 **小龚@GYC** 的精美LOGO。
+    <p align="center">
+      <img src="dg.png" alt="应用Logo" width="128"/>
+    </p>
 *   设计灵感来源于 **[某个项目或网站](http://example.com)**。
 ## 📄 许可证
 
