@@ -28,7 +28,7 @@
 您可以通过以下方式安装本应用：
 
 *   前往 **[GitHub Releases](https://github.com/guyong2015/DialerGu/releases)** 页面下载最新的 `.apk` 文件。
-*   国内下载 **[Gitee Releases](https://gitee.com/ufogy/DialerGu/blob/main/app/release/app-release.apk)**页面下载最新的 `.apk` 文件。
+*   国内下载 **[Gitee Releases](https://gitee.com/ufogy/DialerGu/blob/main/app/release/app-release.apk)** 页面下载最新的 `.apk` 文件。
 *   (如果已上架) 前往 **[Google Play](https://play.google.com/store/apps/details?id=your.package.name)** 下载。
 
 ### 从源码构建
