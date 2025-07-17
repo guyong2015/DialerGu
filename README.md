@@ -33,14 +33,14 @@
 ### 从源码构建
 
 如果您想自行编译，请遵循以下步骤：
-
+当前使用阿里千问OCR模型,测试通过的还的Gemini.不同模型需要修改代码适应返回数据。
 1.  **克隆仓库**
     ```bash
     git clone https://github.com/guyong2015/DialerGu.git
     ```
 2.  **打开项目**
     使用 Android Studio 打开项目。
-3.  **配置 (如果需要)**
+3.  **配置 (需要)**
     如果项目需要API密钥等，请在 `local.properties` 文件中添加如下内容 (此文件已被加入 `.gitignore`，不会被提交)：
     ```properties
     API_KEY="YOUR_API_KEY"
